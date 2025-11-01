@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Power Agency</title>
+  </head>
+  <body>
+    <!-- Header Navigation -->
+    <header class="header">
+      <nav class="header__nav">
+        <div class="logo">
+          <img src="assets/img-logo-power.svg" alt="Power Logo" class="logo__icon" />
+        </div>
+
+        <button class="header__menu-toggle" aria-label="Toggle menu">
+          <span class="header__menu-line"></span>
+          <span class="header__menu-line"></span>
+          <span class="header__menu-line"></span>
+        </button>
+
+        <ul class="nav">
+          <li class="nav__item">
+            <a href="#home" class="nav__link nav__link--active">Home</a>
+          </li>
+          <li class="nav__item"><a href="#about" class="nav__link">About Us</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+          <li class="nav__item"><a href="#products" class="nav__link">Products</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <!-- Left Content -->
+            <div class="hero__text">
+              <h1 class="hero__heading">
+                We Design Impactful<br />
+                Digital
+                <span class="hero__highlight-wrapper">
+                  <span class="hero__highlight">Products</span>
+                  <span class="hero__corner hero__corner--tl"></span>
+                  <span class="hero__corner hero__corner--tr"></span>
+                  <span class="hero__corner hero__corner--bl"></span>
+                  <span class="hero__corner hero__corner--br"></span>
+                </span>
+              </h1>
+
+              <p class="hero__description">
+                Help find solutions with intuitive and in accordance with client business
+                goals. we provide a high-quality services.
+              </p>
+
+              <div class="hero__actions">
+                <button class="btn btn--primary">Contact Us</button>
+                <button class="btn-video">
+                  <span class="btn-video__icon">
+                    <img src="assets/img-hero-btn-video.svg" alt="Power Logo Icon" />
+                  </span>
+                  <span class="btn-video__text">Watch our introduction video</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Right Content -->
+            <div class="hero__image">
+              <div class="hero__circle">
+                <img
+                  src="assets/img-hero-person.png"
+                  alt="Happy employee"
+                  class="hero__person"
+                />
+
+                <!-- Floating Icons -->
+                <div class="floating-icon floating-icon--1">
+                  <img src="assets/icon-hero-float-sketch.svg" alt="Sketch" />
+                </div>
+                <div class="floating-icon floating-icon--2">
+                  <img src="assets/icon-hero-float-xd.svg" alt="Adobe XD" />
+                </div>
+                <div class="floating-icon floating-icon--3">
+                  <img src="assets/icon-hero-float-figma.svg" alt="Figma" />
+                </div>
+                <div class="floating-icon floating-icon--4"></div>
+
+                <!-- Stats Card -->
+                <div class="stats-card">
+                  <div class="stats-card__avatars">
+                    <img
+                      src="assets/img-hero-employee-1.png"
+                      alt="Employee 1"
+                      class="stats-card__avatar"
+                    />
+                    <img
+                      src="assets/img-hero-employee-2.png"
+                      alt="Employee 2"
+                      class="stats-card__avatar"
+                    />
+                    <img
+                      src="assets/img-hero-employee-3.png"
+                      alt="Employee 3"
+                      class="stats-card__avatar"
+                    />
+                    <img
+                      src="assets/img-hero-employee-4.png"
+                      alt="Employee 4"
+                      class="stats-card__avatar"
+                    />
+                    <img
+                      src="assets/img-hero-employee-5.png"
+                      alt="Employee 4"
+                      class="stats-card__avatar"
+                    />
+                  </div>
+                  <div class="stats-card__info">
+                    <p class="stats-card__count">120+ Employees</p>
+                    <div class="stats-card__rating">
+                      <span class="stats-card__star">★</span>
+                      <span class="stats-card__rating-text">5.0 (3.1K Reviews)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trusted Companies Section -->
+      <section class="trusted">
+        <div class="container">
+          <h2 class="trusted__heading">Trusted By Greatest Companies</h2>
+          <div class="trusted__logos">
+            <div class="trusted__logo">
+              <img src="assets/img-trustedby-google.svg" alt="Google" />
+            </div>
+            <div class="trusted__logo">
+              <img src="assets/img-trustedby-airbnb.svg" alt="Airbnb" />
+            </div>
+            <div class="trusted__logo">
+              <img src="assets/img-trustedby-creativemarket.svg" alt="Creative Market" />
+            </div>
+            <div class="trusted__logo">
+              <img src="assets/img-trustedby-shopify.svg" alt="Shopify" />
+            </div>
+            <div class="trusted__logo">
+              <img src="assets/img-trustedby-amazon.svg" alt="Amazon" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects/Portfolio Section -->
+      <section class="projects">
+        <div class="container">
+          <div class="projects__header">
+            <h2 class="projects__heading">We Create World-Class Digital Products</h2>
+            <p class="projects__description">
+              By information about design the world to the best instructors, heatc helping
+              By information
+            </p>
+          </div>
+
+          <div class="projects__grid">
+            <!-- Large Featured Project -->
+            <article class="project-card project-card--featured">
+              <div class="project-card__image">
+                <img src="assets/img-products-1.jpg" alt="Banking App Redesign" />
+              </div>
+              <div class="project-card__content">
+                <p class="project-card__meta">App Design - June 20, 2022</p>
+                <h3 class="project-card__title">App Redesign</h3>
+                <p class="project-card__text">
+                  By information about design the world to the best instructors, heatc
+                  helping By information about design the world to the best instructors,
+                  heatc helping
+                </p>
+              </div>
+            </article>
+
+            <!-- Small Project Card 1 -->
+            <article class="project-card">
+              <div class="project-card__image">
+                <img src="assets/img-products-2.jpg" alt="LUCA Channel Website" />
+              </div>
+              <div class="project-card__content">
+                <p class="project-card__meta">App Design - June 20, 2022</p>
+                <h3 class="project-card__title project-card__title-other">
+                  Redesign Channel Website Landng Page
+                </h3>
+              </div>
+            </article>
+
+            <!-- Small Project Card 2 -->
+            <article class="project-card">
+              <div class="project-card__image">
+                <img src="assets/img-products-3.jpg" alt="Locator App" />
+              </div>
+              <div class="project-card__content">
+                <p class="project-card__meta">App Design - June 20, 2022</p>
+                <h3 class="project-card__title project-card__title-other">
+                  New Locator App For a New Company
+                </h3>
+              </div>
+            </article>
+
+            <!-- Small Project Card 3 -->
+            <article class="project-card">
+              <div class="project-card__image">
+                <img src="assets/img-products-4.jpg" alt="Rental Rooms Platform" />
+              </div>
+              <div class="project-card__content">
+                <p class="project-card__meta">App Design - June 20, 2022</p>
+                <h3 class="project-card__title project-card__title-other">
+                  Rental Rooms Web App Platform
+                </h3>
+              </div>
+            </article>
+
+            <!-- Small Project Card 4 -->
+            <article class="project-card">
+              <div class="project-card__image">
+                <img src="assets/img-products-5.jpg" alt="Calendar App" />
+              </div>
+              <div class="project-card__content">
+                <p class="project-card__meta">App Design - June 20, 2022</p>
+                <h3 class="project-card__title project-card__title-other">
+                  Calendar App for Big SASS Company
+                </h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="testimonials">
+        <div class="testimonials__decoration testimonials__decoration--left"></div>
+        <div class="testimonials__decoration testimonials__decoration--right"></div>
+
+        <div class="container">
+          <div class="testimonials__header">
+            <h2 class="testimonials__heading">
+              Let's Hear<br />
+              What They Says
+            </h2>
+          </div>
+
+          <div class="testimonials__content">
+            <span class="testimonials__quote testimonials__quote--left">
+              <img src="assets/img-testimonial-quote-left.svg" alt="Quote Left" />
+            </span>
+
+            <div class="testimonials__text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus vel
+                lobortis tincidunt fames quisque mauris at diam. Nullam morbi ipsum turpis
+                amet id posuere torto quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore.
+              </p>
+            </div>
+
+            <span class="testimonials__quote testimonials__quote--right">
+              <img src="assets/img-testimonial-quote-right.svg" alt="Quote Right" />
+            </span>
+          </div>
+
+          <div class="testimonials__avatars">
+            <button class="testimonials__avatar" data-testimonial="0">
+              <img src="assets/img-testimonial-client-1.png" alt="Client 1" />
+            </button>
+            <button class="testimonials__avatar" data-testimonial="1">
+              <img src="assets/img-testimonial-client-2.png" alt="Client 2" />
+            </button>
+            <button
+              class="testimonials__avatar testimonials__avatar--active"
+              data-testimonial="2"
+            >
+              <img src="assets/img-testimonial-client-3.png" alt="Ricky Aprilia" />
+            </button>
+            <button class="testimonials__avatar" data-testimonial="3">
+              <img src="assets/img-testimonial-client-4.png" alt="Client 4" />
+            </button>
+            <button class="testimonials__avatar" data-testimonial="4">
+              <img src="assets/img-testimonial-client-5.png" alt="Client 5" />
+            </button>
+          </div>
+
+          <div class="testimonials__author">
+            <h3 class="testimonials__name">Ricky Aprilia</h3>
+            <p class="testimonials__role">Founder of Varibo</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services / Newsletter Section -->
+      <section class="services">
+        <div class="container">
+          <div class="services__grid">
+            <!-- Left Side - Newsletter -->
+            <div class="services__newsletter">
+              <h2 class="services__heading">How We Can Help You</h2>
+              <p class="services__description">
+                Follow our newsletter. We will regulary update our latest project and
+                availability.
+              </p>
+
+              <form class="newsletter-form">
+                <div class="newsletter-form__wrapper">
+                  <span class="newsletter-form__icon">
+                    <img src="assets/ic-service-contact.svg" alt="Email" />
+                  </span>
+                  <input
+                    type="email"
+                    class="newsletter-form__input"
+                    placeholder="Enter your email address"
+                    required
+                  />
+                  <button type="submit" class="newsletter-form__button btn--primary">
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <!-- Right Side - Service Cards -->
+            <div class="services__cards">
+              <!-- Service Card 1 -->
+              <article class="service-card">
+                <div class="service-card__icon">
+                  <img src="assets/ic-service-uiux.svg" alt="Service - UI/UX Design" />
+                </div>
+                <h3 class="service-card__title">UI/UX Design</h3>
+                <p class="service-card__text">
+                  Sometimes features require a short description
+                </p>
+              </article>
+
+              <!-- Service Card 2 -->
+              <article class="service-card">
+                <div class="service-card__icon">
+                  <img
+                    alt="Service - Logo Branding"
+                    src="assets/ic-service-branding.svg"
+                  />
+                </div>
+                <h3 class="service-card__title">Logo Branding</h3>
+                <p class="service-card__text">
+                  Sometimes features require a short description
+                </p>
+              </article>
+
+              <!-- Service Card 3 -->
+              <article class="service-card">
+                <div class="service-card__icon">
+                  <img src="assets/ic-service-appdesign.svg" alt="Service - App Design" />
+                </div>
+                <h3 class="service-card__title">App Design</h3>
+                <p class="service-card__text">
+                  Sometimes features require a short description
+                </p>
+              </article>
+
+              <!-- Service Card 4 -->
+              <article class="service-card">
+                <div class="service-card__icon">
+                  <img src="assets/ic-service-webdesign.svg" alt="Service - Web Design" />
+                </div>
+                <h3 class="service-card__title">Webiste Design</h3>
+                <p class="service-card__text">
+                  Sometimes features require a short description
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <!-- Footer Top -->
+        <div class="footer__top">
+          <div class="footer__logo">
+            <img
+              alt="Power Logo"
+              class="footer__logo-img"
+              src="assets/img-logo-power-white.svg"
+            />
+          </div>
+
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Instagram">
+              <img alt="Instagram" src="assets/icon-footer-instagram.svg" />
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Facebook">
+              <img alt="Facebook" src="assets/icon-footer-facebook.svg" />
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Twitter">
+              <img alt="Twitter" src="assets/icon-footer-twitter.svg" />
+            </a>
+            <a href="#" class="footer__social-link" aria-label="GitHub">
+              <img alt="Github" src="assets/icon-footer-github.svg" />
+            </a>
+          </div>
+        </div>
+
+        <!-- Footer Middle -->
+        <div class="footer__middle">
+          <div class="footer__section">
+            <h3 class="footer__section-title">Company</h3>
+            <nav class="footer__nav">
+              <div class="footer__nav-link">
+                <a href="#" class="footer__link">About Us</a>
+                <a href="#" class="footer__link">Press</a>
+                <a href="#" class="footer__link">Investors</a>
+                <a href="#" class="footer__link">Events</a>
+                <a href="#" class="footer__link">Terms of use</a>
+                <a href="#" class="footer__link">Privacy policy</a>
+              </div>
+              <button class="footer__cta btn btn--primary">Contact Us</button>
+            </nav>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer__bottom">
+          <p class="footer__copyright">© power 2021 - All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="modal" id="videoModal">
+      <div class="modal__overlay"></div>
+      <div class="modal__content">
+        <button class="modal__close">&times;</button>
+        <div class="modal__video">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
